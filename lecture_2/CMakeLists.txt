@@ -7,6 +7,6 @@ find_package(fmt)
 
 link_libraries(fmt::fmt)
 
-add_executable(sizes sizes.cpp)
 add_executable(hello hello_world.cpp)
 add_executable(hello_fmt hello_world_fmt.cpp)
+add_executable(stdin stdin.cpp)
