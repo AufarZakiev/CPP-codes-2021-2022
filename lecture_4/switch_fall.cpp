@@ -3,7 +3,7 @@
 // enable -Wextra
 
 int main() {
-  int i = 0;
+  int i{0};
   switch (i) {
   case 0:
     std::cout << "Zero!" << std::endl;
