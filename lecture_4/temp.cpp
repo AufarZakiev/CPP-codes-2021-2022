@@ -1,15 +1,14 @@
 #include <iostream>
 
+void log(double val) { std::cout << "i: " << val << std::endl; }
+
 int main() {
-  char c;
-  std::cin >> c;
-  switch (c) {
-  case '0':
-    std::cout << "Zero pressed!" << std::endl;
-    break;
-  default:
-    std::cout << "Zero not pressed!" << std::endl;
-    break;
-  }
-  return 0;
+  int i{2};
+  log(i);
+  i = i * i;
+  log(i);
+  i = i * i;
+  log(i);
 }
+
+// constexpr?
